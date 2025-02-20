@@ -1,5 +1,5 @@
 def twoSum(nums, target):
-        seen = {}  # speichert: Zahl -> Index
+        seen = {}  
         for i, num in enumerate(nums):
             complement = target - num
             if complement in seen:
