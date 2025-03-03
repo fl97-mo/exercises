@@ -21,7 +21,6 @@ def searchInsert(nums, target):
                 start = mid +1
             elif nums[mid] >= target:
                 end = mid -1
-            
     return start
 
 print(searchInsert([1,2,3,4,6,7,8,9],5))
